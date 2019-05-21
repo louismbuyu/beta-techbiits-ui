@@ -1,0 +1,17 @@
+steps:
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['install']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/client:$BUILD_ID', '-f', './client/Dockerfile', './client']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/client:$BUILD_ID']
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args: ['apply', '-f', 'k8s']
+    env:
+      - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=beta-techbiits-ui-cluster'
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args: ['set', 'image', 'deployments/client-deployment', 'client=gcr.io/$PROJECT_ID/client:$BUILD_ID']
+    env:
+      - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=beta-techbiits-ui-cluster'
