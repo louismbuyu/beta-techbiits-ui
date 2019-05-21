@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      Beta App
+      Beta App 2
     </div>
   );
 }
