@@ -1,0 +1,14 @@
+{
+  "google":"Google", "facebook":"Facebook", "microsoft":"Microsoft", "apple":"Apple", "samsung":"Samsung",
+  "business":"Business", "apps":"Apps", "photography":"Photography", "vr-virtual-reality":"V.R",
+  "design":"Design", "ai-artificial-intelligence":"A.I",
+  "internet-culture":"Internet","tv":"TV","film":"Film","games":"Games","comics":"Comics","music":"Music",
+  "space":"Space","energy":"Energy","environment":"Environment","health":"Health",
+  "autonomous-cars":"Self-driving","planes":"Aviation","cars":"Cars","electric-cars":"Electric Cars",
+  "trains":"Trains","ride-sharing":"Ride Sharing","bikes":"Bikes","crypto":"Crypto Currency","venture":"Venture Capital",
+  "phone-review":"Smartphones","home":"Smart Speakers","laptop-review":"Laptops","camera-review":"Cameras",
+  "tablet-review":"Tablets","startups":"Startups","amazon":"Amazon","tesla":"Tesla","scooters":"Rideables",
+  "headphone-review":"Headphones", "smartwatch-review":"Smartwatchs","this-is-my-next":"My next",
+  "how-to":"How to","good-deals":"Good deals","blockchain":"Blockchain","bigdata":"Big Data","cloud":"Cloud Computing",
+  "drones":"Drones", "nasa":"NASA", "spacex":"SpaceX", "hacking":"Hacking", "privacy":"Privacy", "policy":"Policy"
+}

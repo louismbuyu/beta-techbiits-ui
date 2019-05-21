@@ -1,0 +1,218 @@
+.NewsItemLarge {
+  background: white;
+  height: auto;
+  padding: 8px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  margin: 16px;
+  display: flex;
+
+  .article_tags{
+    height: auto;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .article_content{
+    width: 100%;
+    display: flex;
+  }
+
+  .article_info{
+    flex: 1;
+    margin-left: 8px;
+    display: block;
+    flex-direction: column;
+  }
+
+  .article_timestamp {
+    font-size: 12px;
+    color: grey;
+  }
+
+  .article_title{
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    height: 70px;
+    color: black;
+  }
+
+  .article_image_container{
+    max-width: 160px;
+  }
+
+  .article_image {
+    border-radius: 4px;
+    max-width: 160px;
+  }
+
+  .article_source_info{
+    display: flex;
+    align-items: center;
+  }
+
+  .article_provider{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+  .article_provider_image{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    border-width: 1px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .article_provider_display{
+    margin-left: 8px;
+    font-size: 12px;
+    color: grey;
+  }
+
+  .article_views{
+    display: flex;
+    align-items: flex-end;
+  }
+  .article_actions {
+    display: flex;
+  }
+
+  .article_likes_container{
+    display: flex;
+    align-items: center;
+  }
+
+  .article_saves_container{
+    display: flex;
+    align-items: center;
+  }
+
+  .article_likes_icon{
+    width: 30px;
+  }
+
+  .article_saves_icon{
+    width: 30px;
+  }
+
+  /*.lineSeparator{
+    background: lightgrey;
+    width: 320px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+  }*/
+
+  @media only screen
+  and (max-width: 645px)
+  {
+    .article_title {
+      font-size: 16px;
+    }
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen
+  and (max-width : 440px) {
+    padding-bottom: 24px;
+    /* Styles */
+    .article_title{
+      flex: 1;
+      font-size: 12px;
+      font-weight: bold;
+      display: flex;
+      align-items: start;
+      overflow-y: hidden;
+      height: auto;
+      color: black;
+    }
+
+    .article_content{
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 8px;
+    }
+
+    .article_image_container{
+      max-width: 90px;
+      height: fit-content;
+    }
+
+    .article_image {
+      border-radius: 4px;
+      max-width: 90px;
+    }
+
+    .article_timestamp {
+      font-size: 10px;
+      color: grey;
+    }
+
+    .article_provider_image{
+      width: 16px;
+      height: 16px;
+    }
+
+    .article_provider_display{
+      font-size: 10px;
+    }
+
+    .article_source_info{
+      display: flex;
+      align-items: center;
+      width: 100% !important;
+      min-width: max-content;
+    }
+
+    .article_info {
+      margin-left: 8px;
+    }
+  }
+
+  .article_actions{
+    border-right-style: solid;
+    border-right-color: lightgrey;
+    border-right-width: 1px;
+    padding-right: 8px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    //font-size: 16px !important;
+  }
+
+  .article_likes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article_views {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article_likes_value{
+    margin-left: 4px;
+    margin-right: 8px;
+  }
+
+  .article_clicks_value{
+    margin-left: 4px;
+  }
+
+  .clickable{
+    cursor: pointer;
+  }
+}

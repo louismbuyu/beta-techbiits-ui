@@ -1,0 +1,93 @@
+.FinanceBanner {
+  background: white;
+  margin: 16px;
+  border-radius: 4px;
+  padding: 16px;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-style: solid;
+
+  .financeContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px,200px);
+    grid-gap: 8px;
+    grid-template-areas:
+            "finText1 finText1 finImage2 finImage3"
+            "finChart finChart finText2 finText2";
+  }
+
+  @media (max-width: 767px) {
+
+    .financeContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: auto;
+      grid-template-areas: "finText1 finText1" "finChart finChart" "finText2 finText2" "finImage2 finImage3" ;
+    }
+  }
+
+  .text {
+    justify-self: center;
+    align-self: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: black;
+    color: white;
+  }
+
+  .finText1 {
+    grid-area: finText1;
+    @extend .text;
+  }
+
+  .finText2 {
+    grid-area: finText2;
+    @extend .text;
+  }
+
+  .image {
+    overflow: hidden;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img {
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .finChart {
+    grid-area: finChart;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+  }
+
+  .finImage2 {
+    grid-area: finImage2;
+    background: white;
+    @extend .image;
+  }
+
+  .finImg2 {
+    @extend .img;
+  }
+
+  .finImage3 {
+    grid-area: finImage3;
+    background: white;
+    @extend .image;
+  }
+
+  .finImg3 {
+    @extend .img;
+  }
+
+}

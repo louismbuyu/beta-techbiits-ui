@@ -1,0 +1,60 @@
+.Deal {
+
+  .storeContainer{
+    display: flex;
+    align-items: center;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    margin: 16px;
+    padding: 16px;
+    //background: linear-gradient(120DEG,#FF9900,#146EB4);
+    max-width: 300px;
+    cursor: pointer;
+  }
+
+  .storeInfoContainer {
+    flex: 1;
+  }
+
+  .storeProviderContainer{
+    display: flex;
+    align-items: center;
+  }
+
+  .storeImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+  }
+
+  .storeName{
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+  }
+
+  .priceContainer{
+    margin-top: 16px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .storePrice{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 8px;
+  }
+
+  a:hover, a:visited, a:link, a:active
+  {
+    text-decoration: none;
+  }
+}

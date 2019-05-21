@@ -1,0 +1,62 @@
+.AuthModal {
+
+}
+
+.model_content{
+  text-align: center;
+  margin-top: 16px !important;
+  padding: 32px !important;
+
+  .info{
+    margin-bottom: 16px;
+  }
+
+  .google_btn_container{
+    margin-bottom: 16px;
+  }
+
+  .google_btn_content {
+    display: flex;
+    align-items: center;
+  }
+
+  .github_btn_container{
+    margin-bottom: 16px;
+  }
+
+  .github_btn_content {
+    display: flex;
+    align-items: center;
+  }
+
+  .twitter_btn_container{
+    margin-bottom: 16px;
+  }
+
+  .twitter_btn_content {
+    display: flex;
+    align-items: center;
+  }
+
+  .facebook_btn_container{
+    margin-bottom: 16px;
+  }
+
+  button {
+    min-width: 200px !important;
+  }
+
+  .facebook_btn_content {
+    display: flex;
+    align-items: center;
+  }
+
+  .signin{
+    margin-bottom: 32px;
+  }
+
+  .signup_img{
+    margin-right: 8px;
+    border-radius: 3px;
+  }
+}

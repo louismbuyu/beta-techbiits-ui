@@ -1,0 +1,24 @@
+.WelcomeLogo2 {
+  //background: red;
+  background: linear-gradient(147deg, #ff4500 0%, #ff0000 74%);
+  height: 180px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .title{
+    color: orangered;
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7)
+  }
+
+  .slogan {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

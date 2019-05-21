@@ -1,0 +1,63 @@
+.CoinList {
+  background: white;
+  border-radius: 4px;
+  margin: 16px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+
+  .coinListHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 8px;
+  }
+
+  .coinListTitle {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .coinListTimestamp {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .coinTitle {
+    flex: 2;
+    display: flex;
+    align-items: center;
+  }
+
+  .coinName {
+    margin-left: 4px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .coinValue {
+    flex: 1;
+    color: black;
+    font-weight: 500;
+  }
+
+  .coinMovement {
+    flex: 1;
+    color: green;
+    font-weight: bold;
+  }
+
+  .coinImage {
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+  }
+
+  .coinListItem {
+    display: flex;
+    margin: 8px;
+  }
+}

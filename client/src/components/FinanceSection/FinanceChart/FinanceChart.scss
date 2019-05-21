@@ -1,0 +1,67 @@
+.FinanceChart {
+  background: white;
+  border-radius: 4px;
+  margin: 16px;
+
+  .chartContainer {
+    padding-top: 16px;
+  }
+
+  .chartHeader {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+
+  .chartImage {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+  }
+
+  .chartTitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    margin-left: 8px;
+  }
+
+  .chart {
+
+  }
+
+  .chartBody {
+
+  }
+
+  .chartTitleContainer {
+    display: flex;
+    //align-items: center;
+  }
+
+  .column {
+    padding: 4px;
+  }
+
+  .filterColumn {
+    text-align: right;
+    //margin-top: 16px;
+  }
+
+  .filterContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selectTitle {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    text-align: left !important;
+  }
+
+  .typeActions {
+    text-align: left !important;
+    width: 100% !important;
+  }
+}

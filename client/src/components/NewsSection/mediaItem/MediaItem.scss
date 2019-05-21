@@ -1,0 +1,28 @@
+.MediaItem {
+  align-items: center;
+  background: white;
+  margin: 8px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  padding: 8px;
+  text-align: center;
+
+  .Name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  }
+
+  .content {
+    padding-left: 8px;
+    padding-right: 16px;
+  }
+}

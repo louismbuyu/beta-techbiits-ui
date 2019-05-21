@@ -1,0 +1,103 @@
+.Post {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  //background: red;
+
+  .mainContainer {
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    max-width: min-content;
+  }
+
+  .postBodyContainer {
+    padding: 8px;
+  }
+
+  .postIframe{
+    border-width: 0;
+  }
+
+  .postImage {
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .titleContainer {
+    margin-bottom: 8px;
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .title {
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .providerContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .article_provider_display{
+    margin-left: 8px;
+    font-size: 12px;
+    color: grey;
+  }
+
+  .providerImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+  }
+
+  .tagsContainer {
+    align-items: center;
+  }
+
+  .article_actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgrey;
+    padding: 8px;
+    font-size: 16px !important;
+  }
+
+  .article_likes{
+    display: flex;
+    align-items: center;
+  }
+
+  .article_views {
+    display: flex;
+    align-items: center;
+  }
+
+  .clickable{
+    cursor: pointer;
+  }
+
+  .newItem {
+    background: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px;
+  }
+
+}

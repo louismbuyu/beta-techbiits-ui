@@ -1,0 +1,21 @@
+.PhotoItem {
+  max-width: 280px;
+  //display: inline-table;
+  margin-right: 16px;
+  text-align: center;
+
+  .photo_image_container {
+    max-height: 160px !important;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .photo_image {
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+}

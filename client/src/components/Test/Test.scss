@@ -1,0 +1,84 @@
+.Test {
+  padding: 8px;
+
+  .card {
+    width: 320px;
+    height: fit-content;
+    background: white;
+    border-radius: 6px;
+    padding: 8px;
+  }
+
+  .bit {
+    margin-top: 8px;
+    background: lightblue;
+    border-radius: 3px;
+    padding: 2px;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .image {
+    //width: 60px;
+    height: 60px;
+    border-radius: 3px;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    margin-left: 8px;
+  }
+
+  .author {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+
+  }
+
+  .profileImage {
+    //width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .profileName {
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    margin-left: 8px;
+  }
+
+  .icon {
+    font-size: 24px;
+    margin: 4px;
+  }
+
+  .like {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: black;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right {
+
+  }
+
+  .likes {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+  }
+}

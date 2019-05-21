@@ -1,0 +1,210 @@
+.Product {
+  width: 100%;
+  background: white;
+
+  .someStuff {
+    background: white;
+  }
+
+  .product_container {
+    display: flex;
+    justify-content: center;
+    background: white;
+  }
+
+  .product_image{
+    max-height: 240px;
+    width: auto;
+  }
+
+  .product_header{
+    background: white;
+    padding: 8px 32px;
+
+    .title_container {
+      background: white;
+      display: flex;
+
+      .brand_image {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        border-color: lightgrey;
+        border-width: 1px;
+        border-style: solid;
+      }
+
+      .product_name_info{
+        margin-left: 8px;
+
+        .product_title {
+          color: #0a0a0a;
+          font-size: 2.0rem;
+          font-weight: 400;
+        }
+
+        .product_brand_title {
+          color: #606060;
+          font-size: 1.4rem;
+          font-weight: 400;
+        }
+
+        .product_brand_title::first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .ant-tabs-nav-wrap{
+    background: white !important;
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .ant-tabs-bar {
+    margin-bottom: 0px !important;
+    border-bottom-color: white !important;
+  }
+
+  .product_specs{
+    margin-top: 16px;
+    padding: 8px;
+    background: white;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+
+  .specs_header {
+    background-color: white;
+    font-size: 20px;
+    //font-weight: 800;
+    color: grey;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+  }
+
+  .specs_body {
+    background: white;
+    height: fit-content;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    display: -webkit-box;
+    overflow-x: auto;
+  }
+
+  .specs_container {
+    background: white;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .specs_left_container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .specs_center_container {
+
+  }
+
+  .videos_center_container {
+
+  }
+
+  .info_container {
+    padding-top: 16px;
+    padding-bottom: 4px;
+    background: #f0f2f5;
+  }
+
+  .grayBackground {
+    background: #f0f2f5 !important;
+  }
+
+  .specs_right_container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .video_container{
+    background: white;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .videos_header {
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+  }
+
+  .specGridItem {
+    background: white;
+    width: 260px;
+    height: 260px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 4px;
+    padding: 8px;
+  }
+
+  .videosContainer {
+    padding-top: 16px;
+  }
+
+  .specGridTitle{
+    color: #606060;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .specGridBody {
+
+    .specGridLine {
+
+    }
+
+  }
+
+  .videoGridItem {
+    background: white;
+    width: 260px;
+    height: 140px;
+    margin-bottom: 48px;
+    border-width: 0;
+    border-radius: 4px;
+  }
+}
+
+.spinning{
+  margin-top: 100px !important;
+}
+
+.aliceBtn {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+}

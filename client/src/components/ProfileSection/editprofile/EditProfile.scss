@@ -1,0 +1,56 @@
+.EditProfile {
+  margin-top: 16px;
+  .parentContent{
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 8px;
+    padding: 16px 48px;
+  }
+
+  .photoContainer {
+    text-align: center;
+  }
+
+  .profileImage{
+    border-radius: 70px;
+  }
+
+  .changeProfileImageBtn{
+
+  }
+
+  .custom-title{
+    font-weight: bold;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+
+  .footer {
+    margin-top: 32px;
+    text-align: center;
+  }
+
+  .saveButton {
+
+  }
+
+  .cancelButton {
+    margin-left: 16px;
+  }
+
+  .usernameContainer {
+    display: flex;
+  }
+
+  .usernameFormItem {
+    flex: 1;
+  }
+
+  .checkButton {
+    margin-top: 43px;
+    margin-left: 8px;
+  }
+}

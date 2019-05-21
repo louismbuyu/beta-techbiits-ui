@@ -1,0 +1,116 @@
+.BetaLanding {
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  height: 100%;
+
+  .left {
+    grid-column: span 20;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .slogan {
+    color: grey;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+
+  .lefti {
+    color: dodgerblue;
+  }
+
+  .righti {
+    color: red;
+  }
+
+  .welcomeContainer {
+    margin: 32px;
+  }
+
+  .right {
+    grid-column: span 20;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginContainer {
+    background: white;
+    border-radius: 4px;
+    padding: 16px;
+    //height: 400px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+    //box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    //box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.31) 0px 0px 1px 0px;
+  }
+
+  .header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+  }
+
+  .headerLeftI {
+    color: dodgerblue;
+  }
+
+  .headerRightI {
+    color: red;
+  }
+
+  .body {
+    padding: 16px;
+  }
+
+  .footerSignUp {
+    cursor: pointer;
+    color: dodgerblue;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .welcomeContainer {
+      margin: 0;
+      height: fit-content;
+      display: grid;
+    }
+
+    .left {
+      grid-column: span 40;
+      height: fit-content;
+    }
+
+    .welcome {
+      color: white;
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 16px;
+    }
+
+    .slogan {
+      color: grey;
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 16px;
+    }
+
+    .right {
+      grid-column: span 40;
+      height: fit-content;
+    }
+  }
+
+
+}

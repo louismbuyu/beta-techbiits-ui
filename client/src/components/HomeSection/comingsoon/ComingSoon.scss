@@ -1,0 +1,45 @@
+.ComingSoon {
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+
+  .test1{
+    padding: 0px;
+    text-align: center;
+  }
+
+  .test2{
+    padding: 8px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    //background: linear-gradient(90deg, #3F5EFB 0%, #FC466B 100%);
+    margin-bottom: 16px;
+  }
+
+  .test3{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 16px;
+  }
+
+  .test4{
+    padding: 8px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    margin-bottom: 16px;
+  }
+}
