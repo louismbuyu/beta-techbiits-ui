@@ -5,7 +5,26 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "antd": "^3.14.0",
+    "axios": "^0.18.0",
+    "easy-peasy": "^2.1.1",
+    "echarts": "^4.2.1",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "http-proxy-middleware": "^0.19.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "moment": "^2.23.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "latest",
+    "rc-texty": "^0.2.0",
+    "rc-tween-one": "^2.3.3",
+    "react-alice-carousel": "^1.13.1",
+    "react-busy-indicator": "^0.10.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,91 @@
+.App {
+  height: 100% !important;
+
+  .hideSideMenu {
+    display: none;
+  }
+
+  .company {
+    color: black !important;
+  }
+
+  .main{
+    height: 100% !important;
+    //display: flex;
+  }
+
+  .sideBar{
+    background: white !important;
+    overflow-y: auto !important;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgrey;
+  }
+
+  .sideBarMenu{
+    //height: 100%;
+    border-right: 0;
+  }
+
+  @media (min-width: 0px) {
+    .sideBar{
+      background: yellow !important;
+      min-width: 100% !important;
+    }
+  }
+
+  @media (min-width: 320px) {
+    .sideBar{
+      background: white !important;
+      min-width: 100% !important;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .sideBar{
+      background: white !important;
+      min-width: 260px !important;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .sideBar{
+      background: white !important;
+      min-width: 260px !important;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .sideBar{
+      background: green;
+      max-width: 260px !important;
+    }
+  }
+}
+
+#root {
+  height: 100vh;
+}
+
+.ant-menu-vertical {
+  border-right: 0 !important;
+}
+
+.customDivider {
+  width: 100%;
+  height: 1px;
+  background: lightgrey;
+}
+
+.logoBlue {
+  color: dodgerblue;
+}
+
+.logoRed {
+  color: red;
+}
+
+.contentMaxWidth {
+  max-width: 1200px;
+  margin: auto;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div>
-      Beta App 2!!!! THIS IS NOT WORKING!!!!!! AND AGAIN!!!!
+      Beta App 2!!!!
     </div>
   );
 }
